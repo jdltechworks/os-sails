@@ -16,4 +16,4 @@ Login to ssh:
 
 > npm install -g sails
 
-
+Restart your openshift application
