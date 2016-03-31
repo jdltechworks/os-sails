@@ -8,7 +8,9 @@ Make sure to install the CLI for openshift along with your Redhat Openshift Cred
 
 Usage with web load balancer:
 
-> rhc app-create <Your appname> https://raw.githubusercontent.com/icflorescu/openshift-cartridge-nodejs/master/metadata/manifest.yml --from-code=https://github.com/jdltechworks/os-sails.git -s
+``rhc app-create <Your appname> https://raw.githubusercontent.com/icflorescu/openshift-cartridge-nodejs/master/metadata/manifest.yml --from-code=https://github.com/jdltechworks/os-sails.git -s
+``
+
 
 Login to ssh:
 ``
