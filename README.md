@@ -21,3 +21,11 @@ rhc ssh <Your app-name>
 npm install -g sails
 ``
 Restart your openshift application
+
+
+Include latest mongodb cartridge in Openshift
+
+``
+rhc cartridge-add https://raw.githubusercontent.com/icflorescu/openshift-cartridge-mongodb/master/metadata/manifest.yml \
+  --app appname
+``
