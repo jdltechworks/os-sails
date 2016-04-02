@@ -15,6 +15,10 @@ module.exports = {
   host: process.env.OPENSHIFT_NODEJS_IP,
   port: process.env.OPENSHIFT_NODEJS_PORT,
 
+
+  // Show server errors
+  keepResponseErrors: true,
+
   /***************************************************************************
    * Set the default database connection for models in the production        *
    * environment (see config/connections.js and config/models.js )           *
